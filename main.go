@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"go_proxy_server/log"
+	"go_proxy_server/lib"
 	"go_proxy_server/server"
 	"os"
 	"strings"
@@ -24,7 +24,7 @@ func configureLog(logFile, logLevel string) error {
 	if err != nil {
 		return err
 	}
-	log.Set(level, file, log.Llongfile|log.LstdFlags)
+	log.Set(level, file, log.Lshortfile|log.LstdFlags)
 	return nil
 }
 

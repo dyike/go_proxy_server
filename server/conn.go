@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	"go_proxy_server/log"
+	"go_proxy_server/lib"
 	"io"
 	"net"
 	"net/textproto"

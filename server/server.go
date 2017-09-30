@@ -3,7 +3,7 @@ package server
 import (
 	"bufio"
 	"encoding/base64"
-	"go_proxy_server/log"
+	"go_proxy_server/lib"
 	"net"
 	"strings"
 )
